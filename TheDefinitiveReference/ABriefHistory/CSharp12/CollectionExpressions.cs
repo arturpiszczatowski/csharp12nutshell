@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ABriefHistory.C_12
+namespace ABriefHistory.CSharp12
 {
     internal class CollectionExpressions
     {

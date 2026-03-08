@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ABriefHistory.C_12
+namespace ABriefHistory.CSharp12
 {
     // Allows creation of a fixed-size inline buffer in a struct without unsafe fixed buffers.
     // This feature is mainly intended for high-performance and runtime-related scenarios.

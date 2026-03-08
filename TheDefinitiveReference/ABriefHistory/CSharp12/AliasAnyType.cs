@@ -11,7 +11,7 @@ using ListOfInt = System.Collections.Generic.List<int>;
 using NumberList = double[];
 using Point = (int X, int Y);
 
-namespace ABriefHistory.C_12
+namespace ABriefHistory.CSharp12
 {
     internal class AliasAnyType
     {
