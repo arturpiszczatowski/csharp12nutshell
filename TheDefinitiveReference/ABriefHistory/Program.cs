@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp12;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp10;
+using ABriefHistory.CSharp9;
 
 // Used when you target .NET 8
 #region C#12
@@ -35,4 +36,8 @@ using ABriefHistory.CSharp10;
 
 // Used when you target .NET 5
 #region C#9
+//InitOnlySetters.Run();
+//Records.Run();
+//PatternMatchingImprovements.Run();
+//TargetTypedNewExpression.Run();
 #endregion
