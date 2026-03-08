@@ -1,6 +1,7 @@
 ﻿using ABriefHistory;
 using ABriefHistory.CSharp12;
 using ABriefHistory.CSharp11;
+using ABriefHistory.CSharp10;
 
 // Used when you target .NET 8
 #region C#12
@@ -22,5 +23,16 @@ using ABriefHistory.CSharp11;
 
 // Used when you target .NET 6
 #region C#10
+//FileScopedNamespaces.Run();
+//GlobalUsingDirective.Run();
+//NondestructiveMutationForAnonymousTypes.Run();
+//NewDeconstructionSyntax.Run();
+//RecordStructs.Run();
+//LambdaExpressionEnhancments.Run();
+//NestedPropertyPatterns.Run();
+//CallerArgumentExpression.Run();
+#endregion
 
+// Used when you target .NET 5
+#region C#9
 #endregion
