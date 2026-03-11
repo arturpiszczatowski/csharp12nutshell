@@ -45,12 +45,13 @@ using ABriefHistory.CSharp8;
 
 // Usen when you target .Net Core 3 and .Net Standard 2.1
 #region C#8
-IndicesAndRanges.Run();
-NullCoalescingAssignment.Run();
-UsingDeclarations.Run();
-ReadOnlyMembers.Run();
-StaticLocalMethods.Run();
-DefaultInterfaceMembers.Run();
-SwitchExpressions.Run();
-TuplePositionalPropertyPatterns.Run();
+//IndicesAndRanges.Run();
+//NullCoalescingAssignment.Run();
+//UsingDeclarations.Run();
+//ReadOnlyMembers.Run();
+//StaticLocalMethods.Run();
+//DefaultInterfaceMembers.Run();
+//SwitchExpressions.Run();
+//TuplePositionalPropertyPatterns.Run();
+//await AsynchronousStreams.Run();
 #endregion
