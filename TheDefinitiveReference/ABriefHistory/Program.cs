@@ -1,9 +1,10 @@
 ﻿using ABriefHistory;
-using ABriefHistory.CSharp12;
-using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp10;
-using ABriefHistory.CSharp9;
+using ABriefHistory.CSharp11;
+using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp7;
 using ABriefHistory.CSharp8;
+using ABriefHistory.CSharp9;
 
 // Used when you target .NET 8
 #region C#12
@@ -54,4 +55,16 @@ using ABriefHistory.CSharp8;
 //SwitchExpressions.Run();
 //TuplePositionalPropertyPatterns.Run();
 //await AsynchronousStreams.Run();
+#endregion
+
+// Used when you target .Net Core 2, .Net Framework 4.6 to 4.8, or .Net Standard 2.0
+#region C#7.x
+//NumericLiteralImprovements.Run();
+//OutVariablesAndDiscards.Run();
+//TypePattersAndPatternVariables.Run();
+//LocalMethods.Run();
+//MoreExpressionBodiedMembers.Run();
+//Deconstructors.Run();
+//Tuples.Run();
+//ThrowExpressions.Run();
 #endregion
