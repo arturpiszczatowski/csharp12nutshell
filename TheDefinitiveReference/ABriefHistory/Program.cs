@@ -70,6 +70,9 @@ using ABriefHistory.CSharp9;
 //ThrowExpressions.Run();
 #endregion
 
+// Features a new-generation compiler, completely written in C# - Known as project "Roslyn"
+// Exposes the entire compilation pipeline via libraries, allowing you to perform code analysis on arbitrary source code
+// The compile is open source available @ https://github.com/dotnet/roslyn
 #region C#6
 //NullConditional.Run();
 //ExpressionBodiedFunctions.Run();
