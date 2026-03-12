@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp10;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp6;
 using ABriefHistory.CSharp7;
 using ABriefHistory.CSharp8;
 using ABriefHistory.CSharp9;
@@ -67,4 +68,14 @@ using ABriefHistory.CSharp9;
 //Deconstructors.Run();
 //Tuples.Run();
 //ThrowExpressions.Run();
+#endregion
+
+#region C#6
+//NullConditional.Run();
+//ExpressionBodiedFunctions.Run();
+//PropertyInitializers.Run();
+//IndexInitializers.Run();
+//await ExceptionFilters.Run();
+//UsingStaticImport.Run();
+//NameOf.Run();
 #endregion
