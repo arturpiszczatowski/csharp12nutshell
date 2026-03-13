@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp10;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp5;
 using ABriefHistory.CSharp6;
 using ABriefHistory.CSharp7;
 using ABriefHistory.CSharp8;
@@ -81,4 +82,8 @@ using ABriefHistory.CSharp9;
 //await ExceptionFilters.Run();
 //UsingStaticImport.Run();
 //NameOf.Run();
+#endregion
+
+#region C#5
+await AsynchronousFunctions.Run();
 #endregion
