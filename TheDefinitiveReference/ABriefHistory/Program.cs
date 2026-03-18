@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp10;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp4;
 using ABriefHistory.CSharp5;
 using ABriefHistory.CSharp6;
 using ABriefHistory.CSharp7;
@@ -85,5 +86,12 @@ using ABriefHistory.CSharp9;
 #endregion
 
 #region C#5
-await AsynchronousFunctions.Run();
+//await AsynchronousFunctions.Run();
+#endregion
+
+#region C#4
+//DynamicBinding.Run();
+//OptionalParameters.Run();
+//TypeVariance.Run();
+ComInteroperability.Run();
 #endregion
