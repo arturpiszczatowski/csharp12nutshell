@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp10;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp3;
 using ABriefHistory.CSharp4;
 using ABriefHistory.CSharp5;
 using ABriefHistory.CSharp6;
@@ -93,5 +94,17 @@ using ABriefHistory.CSharp9;
 //DynamicBinding.Run();
 //OptionalParameters.Run();
 //TypeVariance.Run();
-ComInteroperability.Run();
+//ComInteroperability.Run();
+#endregion
+
+// Features added to C# 3.0 were mostly centered on Language-Integrated Query (LINQ) capabilities
+// LINQ enables queries to be written directly withing a C# program and checked statically for correctness
+#region C#3
+//ImplicitlyTypedLocalVariables.Run();
+//ObjectInitializers.Run();
+//LambdaExpressions.Run();
+ExtensionMethods.Run();
+//QueryExpressions.Run();
+//ExpressionTrees.Run();
+//AutomaticProperties.Run();
 #endregion
