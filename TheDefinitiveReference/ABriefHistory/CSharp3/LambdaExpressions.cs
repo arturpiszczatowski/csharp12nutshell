@@ -29,7 +29,7 @@ namespace ABriefHistory.CSharp3
 
             // Projection (transforming data)
             var squares = numbers.Select(x => x * x);
-            foreach (var s in squares) { Console.WriteLine(s); }
+            foreach (var sq in squares) { Console.WriteLine(sq); }
 
 
             // x => x * x means: input x -> return x * x

@@ -103,8 +103,9 @@ using ABriefHistory.CSharp9;
 //ImplicitlyTypedLocalVariables.Run();
 //ObjectInitializers.Run();
 //LambdaExpressions.Run();
-ExtensionMethods.Run();
+//ExtensionMethods.Run();
 //QueryExpressions.Run();
 //ExpressionTrees.Run();
 //AutomaticProperties.Run();
+//PartialMethods.Run();
 #endregion
