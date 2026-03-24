@@ -2,6 +2,7 @@
 using ABriefHistory.CSharp10;
 using ABriefHistory.CSharp11;
 using ABriefHistory.CSharp12;
+using ABriefHistory.CSharp2;
 using ABriefHistory.CSharp3;
 using ABriefHistory.CSharp4;
 using ABriefHistory.CSharp5;
@@ -108,4 +109,17 @@ using ABriefHistory.CSharp9;
 //ExpressionTrees.Run();
 //AutomaticProperties.Run();
 //PartialMethods.Run();
+#endregion
+
+// Introduction of gneerics required a new CLR (CLR 2.0), because generics maintain full type fidelity at runtime
+#region C#2
+//Generics.Run();
+//NullableValueTypes.Run();
+//Iterators.Run();
+//AnonymousMethods.Run();
+//PartialClasses.Run();
+//StaticClasses.Run();
+//NamespaceAliasQualifier.Run();
+//FriendAssemblies.Run();
+FixedSizeBuffers.Run();
 #endregion
